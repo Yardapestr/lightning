@@ -22,7 +22,7 @@ prost = "0.12"
 hex = "0.4.3"
 bitcoin = { version = "0.31", features = [ "serde" ] }
 tokio-stream = { version = "0.1.14", features = ["sync"] }
-tokio = { version = "1.36.0", features = ["sync"] }
+tokio = { version = "1.43.1", features = ["sync"] }
 futures-core = "0.3.30"
 tokio-util = "0.7.10"
 
