@@ -12,13 +12,13 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytest = "^7"
+pytest = ">=7,<9"
 ephemeral-port-reserve = "^1.1.4"
 psycopg2-binary = "^2.9"
 python-bitcoinlib = "^0.11.0"
 jsonschema = "^4.4.0"
 pyln-client = ">=23"
-Flask = "^2"
+Flask = ">=2,<4"
 cheroot = ">=8 <=10"
 psutil = "^5.9"
 requests = "^2.31.0"
